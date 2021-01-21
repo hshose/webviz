@@ -1,0 +1,44 @@
+{
+  "layout": {
+    "direction": "column",
+    "second": "Plot!4eo7dlv",
+    "first": "RawMessages!1aree1f"
+  },
+  "savedProps": {
+    "RawMessages!1aree1f": {
+      "topicPath": "/test",
+      "diffTopicPath": "",
+      "diffMethod": "custom",
+      "diffEnabled": false,
+      "showFullMessageForDiff": false,
+      "topicName": "/diagnostics_agg"
+    },
+    "Plot!4eo7dlv": {
+      "paths": [
+        {
+          "value": "/test.data",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "minYValue": "",
+      "maxYValue": "",
+      "showLegend": true,
+      "xAxisVal": "timestamp"
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "linkedGlobalVariables": [],
+  "playbackConfig": {
+    "speed": 0.2,
+    "messageOrder": "receiveTime"
+  },
+  "version": 16,
+  "skipSettingLocalStorage": false
+}
